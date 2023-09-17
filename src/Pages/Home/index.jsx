@@ -8,7 +8,7 @@ const Home = () => {
 
 
       <h1 className="text-3xl font-bold underline bg-red-400">
-      Hello world!
+      Hello world! 3
     </h1>
     </div>
   )
