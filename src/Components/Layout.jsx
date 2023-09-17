@@ -1,12 +1,17 @@
-import React from 'react'
+import Navbar from "../Components/Navbar"
+import Header from "../Components/Header"
+import TopLeftImg from "../Components/TopLeftImg"
 
 const Layout = ({children}) => {
     return (
   
-      <div >
-        
-        {children}
-      </div>
+        <div className={`page bg-site text-white bg-cover
+        bg-no-repeat font-sora relative`}>
+           
+      <Header/>
+      <TopLeftImg/>
+          {children}
+        </div>
     )
   };
 

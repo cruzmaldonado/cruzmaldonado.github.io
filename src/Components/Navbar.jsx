@@ -17,7 +17,7 @@ const Navbar = () => {
 // const activeStyle='underline underline-offset-4'
   const activeStyle=''
   return (
-    <nav>
+    <nav className='absolute z-20'>
       <NavLink to ='ERWE'>hola</NavLink>
       <div>
         <div>

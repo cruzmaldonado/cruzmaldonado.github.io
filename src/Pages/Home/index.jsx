@@ -1,7 +1,10 @@
 import React from 'react'
+import Layout from '../../Components/Layout'
 
 const Home = () => {
   return (
+    <Layout>
+
     <div className='w-20 h-20 bg-red-400'>
       
       hola
@@ -11,6 +14,7 @@ const Home = () => {
       Hello world! 3
     </h1>
     </div>
+    </Layout>
   )
 }
 
