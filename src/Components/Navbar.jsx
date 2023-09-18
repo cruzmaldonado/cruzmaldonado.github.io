@@ -7,6 +7,11 @@ import {
   HiEnvelope,
 } from "react-icons/hi2";
 
+
+
+
+
+
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -26,11 +31,13 @@ const Navbar = () => {
         <div
           className="relative flex items-center group hover:text-accent
         transition-all duration-300 "
-        >
+        > 
+       
+
           <NavLink
             to="/"
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
+            >
             {/* tolltip */}
             <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
               <div className="bg-white relative flex text-primary items-center 
@@ -44,7 +51,10 @@ const Navbar = () => {
             </div>
 
             <HiHome />
+            
+
           </NavLink>
+          
         </div>
 
         <div
@@ -147,7 +157,7 @@ const Navbar = () => {
           <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
             <div className="bg-white relative flex text-primary items-center 
             p-[6px] rounded-[3px]">
-              <div className="text-[12px] leading-none font-semibold capitalize">Contact
+              <div className="text-[12px] leading-none font-semibold capitalize">CONTACT
               </div>
               {/* triangle */}
               <div className="border-solid border-l-white border-l-8 border-y-transparent

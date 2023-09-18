@@ -8,6 +8,11 @@ import {
   FaFigma,
 } from "react-icons/fa";
 
+import { AnimatePresence,motion } from "framer-motion";
+import Layout from "../../Components/Layout"
+import Transition from '../../Components/Transition'
+
+
 import {
   SiNextdotjs,
   SiFramer,
@@ -15,7 +20,6 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
-import Layout from "../../Components/Layout"
 //  data
 const aboutData = [
   {
@@ -91,13 +95,20 @@ const aboutData = [
 const About = () => {
   return (
 
-<Layout>
+    <Layout>
+    < AnimatePresence mode ="wait">
+
+  <motion.div   className='h-full'>
+
+<Transition/>
 
 
-    
+
     <div>About</div>
+  </motion.div>
+    </AnimatePresence>
 </Layout>
     )
-};
+  };
 
 export default About;

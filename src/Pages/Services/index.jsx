@@ -1,11 +1,23 @@
+
+import { AnimatePresence,motion } from "framer-motion";
 import Layout from "../../Components/Layout"
+import Transition from "../../Components/Transition";
 
 const Services = () => {
   return(
 
 <Layout>
+      < AnimatePresence mode ="wait">
 
-    <div>Services</div>
+    <motion.div className='h-full'>
+
+<Transition/>
+
+
+
+<div>Services</div>
+    </motion.div>
+      </AnimatePresence>
 </Layout>
   )
 };

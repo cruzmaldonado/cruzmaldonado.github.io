@@ -7,7 +7,7 @@ const Layout = ({children}) => {
   
         <div className='page bg-site text-white bg-cover
         bg-no-repeat font-sora relative'>
-           
+        
       <Header/>
       <TopLeftImg/>
           {children}
