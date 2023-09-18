@@ -5,8 +5,8 @@ import TopLeftImg from "../Components/TopLeftImg"
 const Layout = ({children}) => {
     return (
   
-        <div className={`page bg-site text-white bg-cover
-        bg-no-repeat font-sora relative`}>
+        <div className='page bg-site text-white bg-cover
+        bg-no-repeat font-sora relative'>
            
       <Header/>
       <TopLeftImg/>
