@@ -28,6 +28,9 @@ export default {
         circleStar: 'url("./src/images/circle-star.svg")',
         site: 'url("./src/images/site-bg.svg")',
         TopLeftImg: 'url("./src/images/top-left-img.png")',
+        RoundedText: 'url("./src/images/rounded-text.png")',
+        Cruz: 'url("./src/images/cruz-inicio.png")',
+        Avatar: 'url("./src/images/avatar.png")',
         
       },
       height:{

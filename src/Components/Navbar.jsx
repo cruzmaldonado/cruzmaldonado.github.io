@@ -20,12 +20,12 @@ const Navbar = () => {
   return (
     <nav
       className=" flex  flex-col items-center  gap-y-4 fixed 
-    h-max bottom-0 mt-auto lg:right-[2%] z-50 top-0 w-full lg:w-16 lg:max-w-md lg:h-screen "
+    h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen "
     >
       <div
         style={{ alignItems: "center" }}
-        className="align-middle flex w-full lg:flex-col   item-center justify-between lg:justify-center gap-y-8 px-4 md:px-40 lg:px-0
-      h-5 lg:h-max text-white py-8 bg-white/10 backdrop-blur-sm text-2xl lg:text-sm lg:rounded-full m-auto
+        className="align-middle flex w-full xl:flex-col   item-center justify-between xl:justify-center gap-y-8 px-4 md:px-40 xl:px-0
+      h-5 xl:h-max text-white py-8 bg-white/10 backdrop-blur-sm text-2xl xl:text-sm xl:rounded-full m-auto
       "
       >
         <div
@@ -39,7 +39,7 @@ const Navbar = () => {
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
             {/* tolltip */}
-            <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
+            <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
               <div className="bg-white relative flex text-primary items-center 
               p-[6px] rounded-[3px]">
                 <div className="text-[12px] leading-none font-semibold capitalize">HOME
@@ -66,7 +66,7 @@ const Navbar = () => {
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             {/* tolltip */}
-            <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
+            <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
               <div className="bg-white relative flex text-primary items-center 
               p-[6px] rounded-[3px]">
                 <div className="text-[12px] leading-none font-semibold capitalize">ABOUT
@@ -89,7 +89,7 @@ const Navbar = () => {
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             {/* tolltip */}
-            <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
+            <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
               <div className="bg-white relative flex text-primary items-center 
               p-[6px] rounded-[3px]">
                 <div className="text-[12px] leading-none font-semibold capitalize">SERVICES
@@ -110,7 +110,7 @@ const Navbar = () => {
             to="/works-frontend"
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >{/* tolltip */}
-          <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
+          <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
             <div className="bg-white relative flex text-primary items-center 
             p-[6px] rounded-[3px]">
               <div className="text-[12px] leading-none font-semibold capitalize">FRONT
@@ -133,7 +133,7 @@ const Navbar = () => {
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >
             {/* tolltip */}
-            <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
+            <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
               <div className="bg-white relative flex text-primary items-center 
               p-[6px] rounded-[3px]">
                 <div className="text-[12px] leading-none font-semibold capitalize">BACK
@@ -154,7 +154,7 @@ const Navbar = () => {
             to="/contact"
             className={({ isActive }) => (isActive ? activeStyle : undefined)}
           >{/* tolltip */}
-          <div className="absolute pr-14 right-0 hidden lg:group-hover:flex">
+          <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
             <div className="bg-white relative flex text-primary items-center 
             p-[6px] rounded-[3px]">
               <div className="text-[12px] leading-none font-semibold capitalize">CONTACT
