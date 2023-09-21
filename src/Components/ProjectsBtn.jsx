@@ -11,7 +11,7 @@ const ProjectsBtn = () => {
   flex justify-center items-center bg-circleStar bg-cover bg-center
   bg-no-repeat group">
 
-    <img src="/src/images/rounded-text.png" 
+    <img src="./src/images/rounded-text.png" 
     style={{width:"141px",height:"148px"}} 
     className="animate-spin-slow w-full h-full maw-w-[141px] max-h-[148px]"
     alt="MY PROJECTS" />
