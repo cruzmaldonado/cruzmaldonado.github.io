@@ -23,14 +23,15 @@ export default {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("./src/images/bg-explosion.png")',
-        circles: 'url("./src/images/bg-circles.png")',
-        circleStar: 'url("./src/images/circle-star.svg")',
-        site: 'url("./src/images/site-bg.svg")',
-        TopLeftImg: 'url("./src/images/top-left-img.png")',
-        RoundedText: 'url("./src/images/rounded-text.png")',
-        Cruz: 'url("./src/images/cruz-inicio.png")',
-        Avatar: 'url("./src/images/avatar.png")',
+        explosion: 'url("../../images/bg-explosion.png")',
+        circles: 'url("../../images/bg-circles.png")',
+        circleStar: 'url("../../images/circle-star.svg")',
+        site: 'url("../../images/site-bg.svg")',
+        TopLeftImg: 'url("../../images/top-left-img.png")',
+        RoundedText: 'url("../../images/rounded-text.png")',
+        Cruz: 'url("../../images/cruz-inicio.png")',
+        Avatar: 'url("./../images/avatar.png")',
+        vite:'./vite.svg'
         
       },
       height:{

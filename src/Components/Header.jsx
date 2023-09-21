@@ -7,10 +7,17 @@ const Header = () => {
     <header className="absolute z-30 w-full flex items-center px-16 
     xl:px-0 xl:h-[90px] ">
       <div className="container mx-auto">
-      <div>
-      <h1 className=" hidden lg:flex text-3xl w-[380px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-violet-700 to-red-600 ">
-      CRUZ MALDONADO
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 p-y-8">
+        <Link to="/">
+        
+        <h1 className=" text-center text-3xl  font-bold bg-clip-text 
+        text-transparent bg-gradient-to-r from-violet-700 to-red-600 ">
+      CRUZ MALDONADO.
     </h1>
+        </Link>   
+        <Socials/>
+
+
       </div>
       </div>
 

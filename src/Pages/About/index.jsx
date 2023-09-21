@@ -20,6 +20,12 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
+
+
+import React, { useState } from "react";
+
+
+
 //  data
 const aboutData = [
   {
