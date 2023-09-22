@@ -15,7 +15,7 @@ const Home = () => {
         <motion.div className="h-full">
           <Transition />
           <div className="bg-primary/60 h-full">
-            <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
+            <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 -mt-10 ">
               <div className="text-center flex flex-col justify-center  xl:text-left h-full container mx-auto my-4">
                 <motion.h1
                   variants={fadeIn("down", 0.9)}
@@ -23,7 +23,7 @@ const Home = () => {
                   animate="show"
                   exit="hidden"
                   
-                  className="h1 mt-2"
+                  className="h1 mt-12"
                 >
                   Transforming Ideas
                   <br />
