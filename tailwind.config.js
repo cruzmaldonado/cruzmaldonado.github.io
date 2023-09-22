@@ -31,6 +31,7 @@ export default {
         RoundedText: 'url("../../images/rounded-text.png")',
         Cruz: 'url("../../images/cruz-inicio.png")',
         Avatar: 'url("../../images/avatar.png")',       
+        bulb: 'url("../../images/bulb.png")',       
         
       },
       height:{
