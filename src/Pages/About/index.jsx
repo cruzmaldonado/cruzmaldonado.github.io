@@ -92,14 +92,14 @@ export const aboutData = [
     ],
   },
 ];
-import Avatar from "../../Components/Avatar";
+
 import Circles from "../../Components/Circles";
 import { fadeIn } from "../../../variants";
 import CountUp from "react-countup"
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  console.log(index)
+
   return (
     <Layout>
       <AnimatePresence mode="wait">
@@ -108,22 +108,15 @@ const About = () => {
 
           <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
             <Circles />
-            {/* Avatar */}
-            <motion.div
-              variants={fadeIn("right", 0.2)}
-              initial="hidden"
-              animate="show"
-              exit="hidden"
-              className="hidden xl:flex absolute botton-0 -left-[370px] w-[737px] h-[678px] "
-            >
-              <Avatar />
-            </motion.div>
+            
             <div
-              className="container mx-auto h-full w-full flex flex-col items-center
+              className="xl:mt-16  container  mx-auto h-full w-full flex flex-col items-center
                 xl:flex-row gap-x-6 "
+                
             >
                {/* text */}
-              <div className="flex-1 flex flex-col justify-center">
+              <div  
+              className="flex-1 flex flex-col justify-center gap-y-1">
                <motion.h2
                variants={fadeIn("right", 0.2)}
                initial="hidden"
@@ -222,10 +215,7 @@ const About = () => {
               </motion.div>
             </div>
 
-            {/* <div
-                className="xl:max-w-none bg-Cruz 
-         translate-z-0 bg-no-repeat w-full h-full "
-              ></div>  */}
+           
           </div>
         </motion.div>
       </AnimatePresence>
