@@ -11,7 +11,7 @@ const Header = () => {
         <Link to="/">
         
         <h1 className=" text-center text-3xl  font-bold bg-clip-text 
-        text-transparent bg-gradient-to-r from-violet-700 to-red-600 ">
+        text-transparent bg-gradient-to-r from-pink-400/40 to-red-600 ">
       CRUZ MALDONADO.
     </h1>
         </Link>   

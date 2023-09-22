@@ -24,14 +24,13 @@ export default {
       },
       backgroundImage: {
         explosion: 'url("../../images/bg-explosion.png")',
-        circles: 'url("../../images/bg-circles.png")',
+        circles: 'url("../../images/circles.png")',
         circleStar: 'url("../../images/circle-star.svg")',
         site: 'url("../../images/site-bg.svg")',
         TopLeftImg: 'url("../../images/top-left-img.png")',
         RoundedText: 'url("../../images/rounded-text.png")',
         Cruz: 'url("../../images/cruz-inicio.png")',
-        Avatar: 'url("./../images/avatar.png")',
-        vite:'./vite.svg'
+        Avatar: 'url("../../images/avatar.png")',       
         
       },
       height:{
