@@ -8,25 +8,27 @@ import {
 BsArrowRight
   
 } from 'react-icons/bs'
+import { Link } from "react-router-dom";
+
 
 export const workSlider = {
   slides: [
     {
       images: [
         {
-          title: 'title',
+          title: 'https://glistening-hamster-d523f1.netlify.app/',
           number:1,
         },
         {
-          title: 'title',
+          title: 'https://grand-starburst-57dd90.netlify.app/',
           number: 2,
         },
         {
-          title: 'title',
+          title: 'https://jocular-bunny-1b96c3.netlify.app/',
           number: 3,
         },
         {
-          title: 'title',
+          title: 'https://ciudad-caribia.netlify.app/',
           number: 4,
         },
       ],
@@ -34,19 +36,19 @@ export const workSlider = {
     {
       images: [
         {
-          title: 'title',
+          title: 'https://ciudad-caribia.netlify.app/',
           number: 5,
         },
         {
-          title: 'title',
+          title: 'https://symphonious-daffodil-7ceace.netlify.app/',
           number: 6,
         },
         {
-          title: 'title',
+          title: 'https://zesty-paprenjak-d18218.netlify.app/',
           number: 7,
         },
         {
-          title: 'title',
+          title: 'https://glistening-hamster-d523f1.netlify.app/',
           number:1,
         },
       ],
@@ -57,26 +59,32 @@ export const workSlider = {
 const WorkSlider = () => {
   return (
 
-    <Swiper 
+    <Swiper   
     spaceBetween={10}
+    
     pagination={{
       clickable:true
     }}
+    
     modules={[Pagination]}
-    className="h-[600px] "
+    className="h-[415px] "
     >{
       workSlider.slides.map((slice,index)=>{
         return (
           <SwiperSlide key={index}>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4  lg:mx-20 cursor-pointer">
+            <div className="grid grid-cols-2 grid-rows-2 gap-4 lg:mx-20 cursor-pointer ">
               {slice.images.map((image,index)=>{
                 return (
-                  <div className="relative rounded-lg overflow-hidden
-                  flex items-center justify-center group" key={index}>
+                  <Link to={`${image.title}`} target="_blank" rel="noopener noreferrer"
+        
+       >
+         <div className="relative rounded-lg overflow-hidden
+                  flex items-center justify-center group m-0" key={index}>
                     <div className="flex items-center justify-center
                     relative overflow-hidden group">
                       {/* image */}
                       {/* src\images\bulb.png */}
+
                       <div  className={`bg-Mockup${image.number} bg-cover`}  style={{width:300, height:180}}  />
                       <div className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -100,11 +108,18 @@ const WorkSlider = () => {
                       </div>
                     </div>
                   </div>
+       </Link>
+                  
                   
                 ) 
               })}
             </div>
+            
+            
+
+
           </SwiperSlide>
+          
         )
       })
     }</Swiper>

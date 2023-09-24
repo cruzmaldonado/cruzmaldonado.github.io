@@ -58,7 +58,9 @@ const WorksFrontEnd = () => {
                 animate="show"
                 exit="hidden"
                 className="w-full xl:max-w-[65%]">
+                  
                   <WorkSlider />
+                    
                 </motion.div>
               </div>
             </div>
