@@ -13,10 +13,10 @@ const ProjectsBtn = () => {
 
 
     {/* //! aesta ruta no se renderiza en netlify acomodar como acomode el tailwind.config */}
-    <img src="./src/images/rounded-text.png" 
+    <div 
     style={{width:"141px",height:"148px"}} 
-    className="animate-spin-slow w-full h-full maw-w-[141px] max-h-[148px]"
-    alt="MY PROJECTS" />
+    className="bg-RoundedText animate-spin-slow w-full h-full maw-w-[141px] max-h-[148px]"
+     />
     <HiArrowRight className="absolute text-4xl 
     group-hover:translate-x-2 transition-all duration-300 "/>
 
