@@ -15,19 +15,19 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          number:1,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          number: 2,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          number: 3,
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          number: 4,
         },
       ],
     },
@@ -35,25 +35,24 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          number: 4,
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          number: 5,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          number: 6,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          number:7,
         },
       ],
     },
   ],
 };
-
 
 const WorkSlider = () => {
   return (
@@ -78,7 +77,7 @@ const WorkSlider = () => {
                     relative overflow-hidden group">
                       {/* image */}
                       {/* src\images\bulb.png */}
-                      <img src={`src/images/${image.path}`} style={{width:300, height:180}} alt="" />
+                      <div  className={`bg-Mockup${image.number} bg-cover`}  style={{width:300, height:180}}  />
                       <div className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
                       opacity-0 group-hover:opacity-80 transition-all duration-700">

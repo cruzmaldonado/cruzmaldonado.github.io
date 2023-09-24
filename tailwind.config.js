@@ -32,6 +32,13 @@ export default {
         Cruz: 'url("../../images/cruz-inicio.png")',
         Avatar: 'url("../../images/avatar.png")',       
         bulb: 'url("../../images/bulb.png")',       
+        Mockup1: 'url("../../images/Mockup-e-commerce.png")',       
+        Mockup2: 'url("../../images/Mockup-comming-soon.png")',       
+        Mockup3: 'url("../../images/Mockup-rick-and-morty.png")',       
+        Mockup4: 'url("../../images/Mockup-platzitravel-mobile-2.png")',       
+        Mockup5: 'url("../../images/Mockup-platzitravel-mobile.png")',       
+        Mockup6: 'url("../../images/Mockup-app-commerce.png")',       
+        Mockup7: 'url("../../images/Mockup-digital-art.png")',       
         
       },
       height:{
