@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+
+
+import {Pagination } from "swiper/modules";
 
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";

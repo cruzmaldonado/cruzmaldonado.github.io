@@ -4,58 +4,12 @@ import { AnimatePresence,motion } from "framer-motion";
 import Layout from "../../Components/Layout"
 import Transition from "../../Components/Transition";
 
-
-import ServiceSlider from "../../Components/ServiceSlider";
 import Buld from "../../Components/Bulb";
 import Circles from "../../Components/Circles";
 import { fadeIn } from "../../../variants";
 import WorkBackSlider from "../../Components/WorkBackSlider";
 
 
-export const workSlider = {
-  slides: [
-    {
-      images: [
-        {
-          title: 'title',
-          number:1,
-        },
-        {
-          title: 'title',
-          number: 2,
-        },
-        {
-          title: 'title',
-          number: 3,
-        },
-        {
-          title: 'title',
-          number: 4,
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: 'title',
-          number: 5,
-        },
-        {
-          title: 'title',
-          number: 6,
-        },
-        {
-          title: 'title',
-          number: 7,
-        },
-        {
-          title: 'title',
-          number:1,
-        },
-      ],
-    },
-  ],
-};
 
 
 const WorksBackEnd = () => {
