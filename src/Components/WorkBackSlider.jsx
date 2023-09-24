@@ -1,41 +1,35 @@
 // icons
 import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
   RxReader,
-  RxRocket,
-  RxArrowTopRight
+  RxArrowTopRight,
+  RxChatBubble,
+  RxCookie
 } from "react-icons/rx";
 
 
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxCookie />,
+    title: 'RECIPES-API',
+    description: 'Proyecto de recetas: Añade recetas, Filtralas y usa la documentación tipo swagger.',
+    link:"https://github.com/cruzmaldonado/recetario_back-end"
+    
   },
   {
-    icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxReader/>,
+    title: 'BLOG-API',
+    description: 'Autenticación de usuario tipo token JWT, peticiones protegidas y paginación de los post .',
+    link:"https://github.com/cruzmaldonado/blog-express"
   },
   {
-    icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+    icon: <RxChatBubble />,
+    title: 'CHAT-API',
+    description: 'Chat donde se puede crear y filtrar conversaciones y también se crearon rutas protegidas para admin .',
+    link:"https://github.com/cruzmaldonado/chat-express"
+  }
+  
+  
 ];
 
 import {Swiper,SwiperSlide} from "swiper/react"
@@ -43,6 +37,7 @@ import "swiper/css"
 import "swiper/css/free-mode"
 import "swiper/css/pagination"
 import {  Pagination } from 'swiper/modules';
+import { Link } from "react-router-dom";
 
 
 
@@ -69,7 +64,11 @@ const WorkBackSlider = () => {
     >{
       serviceData.map((item,index)=>{
         return (
-          <SwiperSlide key={index}>
+
+          <SwiperSlide key={item.link}>
+          <Link to={item.link} target="_blank" rel="noopener noreferrer"
+          
+        >
             <div className="bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8
             flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer 
             hover:bg-[rgba(89,65,169,0.15)] transition-all duratuion-300 ">
@@ -89,7 +88,10 @@ const WorkBackSlider = () => {
 
 
             </div>
+        </Link>
           </SwiperSlide>
+          
+          
         )
       })
     }</Swiper>
