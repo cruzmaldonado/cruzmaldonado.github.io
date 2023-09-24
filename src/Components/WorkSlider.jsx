@@ -35,10 +35,6 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          number: 4,
-        },
-        {
-          title: 'title',
           number: 5,
         },
         {
@@ -47,7 +43,11 @@ export const workSlider = {
         },
         {
           title: 'title',
-          number:7,
+          number: 7,
+        },
+        {
+          title: 'title',
+          number:1,
         },
       ],
     },
