@@ -43,12 +43,15 @@ export default {
       },
       height:{
         '400':'25rem',
-        '200':'12.5rem'
+        '200':'12.5rem',
+        '180':'11.25rem'
+        
 
       },
       width:{
         '400':'25rem',
         '200':'12.5rem',
+        '300':'18.75rem'
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
