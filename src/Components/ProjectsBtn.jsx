@@ -12,7 +12,7 @@ const ProjectsBtn = () => {
   bg-no-repeat group">
 
 
-    {/* //! aesta ruta no se renderiza en netlify acomodar como acomode el tailwind.config */}
+  
     <div 
     style={{width:"141px",height:"148px"}} 
     className="bg-RoundedText animate-spin-slow w-full h-full maw-w-[141px] max-h-[148px]"

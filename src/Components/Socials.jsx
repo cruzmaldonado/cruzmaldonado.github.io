@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { AiFillGithub,AiFillLinkedin,AiOutlineIdcard } from "react-icons/ai";
+import { AiFillGithub,AiFillLinkedin } from "react-icons/ai";
 import { BiSolidBriefcase} from "react-icons/bi";
 
 

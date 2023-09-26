@@ -18,9 +18,8 @@ const App = () => {
       { path: "/Works-backend", element: <WorksBackEnd /> },
       { path: "/services", element: <Services /> },
       { path: "/contact", element: <Contact /> },
-      // { path:'/api',element:<Api/>}, //!esto no se si dejarlo
       { path: "/about", element: <About /> },
-      { path: "/*", element: <NotFound /> }, //? el * es para cualquier otra ruta que no este especificada.
+      { path: "/*", element: <NotFound /> },
     ]);
     return routes;
   };

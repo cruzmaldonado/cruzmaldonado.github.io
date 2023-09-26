@@ -2,18 +2,9 @@ import { AnimatePresence,motion } from "framer-motion";
 import Layout from "../../Components/Layout"
 import Transition from "../../Components/Transition";
 
-
-
-//components
-import Circles from "../../Components/Circles";
-
-
 //Icons
 import {BsArrowRight} from "react-icons/bs"
-
 //Framer
-
-
 import { fadeIn } from "../../../variants";
 
 

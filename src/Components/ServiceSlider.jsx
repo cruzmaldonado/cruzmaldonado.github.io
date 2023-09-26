@@ -60,7 +60,7 @@ const ServiceSlider = () => {
       },
       
     }}
-    freeMode={true}
+    
     pagination={{
       clickable:true
     }}

@@ -15,7 +15,7 @@ import {
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  // const activeStyle='underline underline-offset-4'
+  
   const activeStyle = "text-accent";
   return (
     <nav
