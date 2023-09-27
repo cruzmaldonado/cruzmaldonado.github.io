@@ -22,13 +22,12 @@ const Socials = () => {
          <AiFillLinkedin  />
        </Link>
   
-
-       <a className=" hover:text-accent transitial-all
-         duration-300" href="./Cruz-Maldonado_CV.pdf" download="cruz-maldonado-curriculum.pdf"
-                    title="descargar CV"  alt="download-CV">
-                  <BiSolidBriefcase />
-        </a>
-       
+       <Link to="https://drive.google.com/file/d/166NAo5yrfyFjgqh9e8LuMVg8m99ZyGDf/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+         className=" hover:text-accent transitial-all
+     duration-300"
+       >
+        <BiSolidBriefcase />
+       </Link>
        
        <Link
          to="/"
