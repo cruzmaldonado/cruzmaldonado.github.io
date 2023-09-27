@@ -38,10 +38,9 @@ const Services = () => {
                   animate="show"
                   exit="hidden"
                   className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-                    Lorem, ipsum d adipisicing elit. Quis voluptatum, motur
-                    illo?,Lorem, ipsum d adipisicing elit. Quis voluptatum,
-                    motur illo?,Lorem, ipsum d adipisicing elit. Quis
-                    voluptatum, motur illo?
+                    I develop innovative digital solutions for my clients 
+                    using technologies such as  ChatGPT, React,tailwind, Node 
+                    ,Sequelize and more. 
                   </motion.p>
                 </div>
 

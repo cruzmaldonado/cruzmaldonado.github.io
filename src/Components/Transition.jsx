@@ -15,7 +15,7 @@ const transitionVariants={
   },
   exit:{
     x:["0%","100%"],
-    x:["0%","100%"],
+    
     with:[],
     
   }

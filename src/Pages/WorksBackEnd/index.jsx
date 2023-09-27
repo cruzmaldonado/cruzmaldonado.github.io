@@ -41,7 +41,7 @@ const WorksBackEnd = () => {
                     exit="hidden"
                     className="h2 xl:mt-8"
                   >
-                    My services BACK END... <span className="text-accent">.</span>
+                    My services Back-end <span className="text-accent">.</span>
                   </motion.h2>
                   <motion.p 
                   variants={fadeIn("up ", 0.4)}
@@ -49,10 +49,11 @@ const WorksBackEnd = () => {
                   animate="show"
                   exit="hidden"
                   className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-                    Lorem, casa ipsum d adipisicing elit. Quis voluptatum, motur
-                    illo?,Lorem, ipsum d adipisicing elit. Quis voluptatum,
-                    motur illo?,Lorem, ipsum d adipisicing elit. Quis
-                    voluptatum, motur illo?
+                     Create a custom back-end that meets your specific needs
+                   and drives business success.  By leveraging the power 
+                   of Node.js and Sequelize. I can create a custom back-end 
+                   that meets your specific requirements. Contact me today 
+                   to get started. 
                   </motion.p>
                 </div>
 

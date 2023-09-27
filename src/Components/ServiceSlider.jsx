@@ -1,40 +1,45 @@
 // icons
 import {
-  RxCrop,
   RxPencil2,
   RxDesktop,
   RxReader,
   RxRocket,
   RxArrowTopRight
 } from "react-icons/rx";
+import {
+  PiRobotFill
+} from "react-icons/pi";
+
+
 
 
 // data
 const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+  
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'I design incredible and innovative web pages.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Front-End',
+    description: 'Achieve amazing and dynamic websites.',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Back-end',
+    description: 'Design a back-end that fits your needs.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Position your website with SEO.',
+  },
+  {
+    icon: <PiRobotFill/>,
+    title: 'IA',
+    description: 'Interact with AI to achieve  results.',
   },
 ];
 

@@ -43,10 +43,10 @@ const WorksFrontEnd = () => {
                   animate="show"
                   exit="hidden"
                   className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-                    Lorem, ipsum d adipisicing elit. Quis voluptatum, motur
-                    illo?,Lorem, ipsum d adipisicing elit. Quis voluptatum,
-                    motur illo?,Lorem, ipsum d adipisicing elit. Quis
-                    voluptatum, motur illo?
+                  With my experience in React 
+                  and Tailwind CSS, I can help you create a custom website 
+                  that stands out from the competition and drives business 
+                  success.                   
                   </motion.p>
                 </div>
 

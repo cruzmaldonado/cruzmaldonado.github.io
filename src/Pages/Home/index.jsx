@@ -37,9 +37,7 @@ const Home = () => {
                   exit="hidden"
                   className="max-w-sm xl:max-w-xl mx-auto xl:mx-0  xl:mb-4 "
                 >
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
-                  repudiandae quasi at non nesciunt aut ipsam temporibus vel
-                  dolore. Illum error vitae eum unde, magnam quisquam ? .
+                  As a full-stack web developer and prompt engineer with a passion for  AI, I am committed to utilizing the latest technologies and trends to create innovative digital solutions for my clients. I believe that innovation is key to success in web development, and I am always seeking new ways to improve my skills.
                 </motion.p>
                 {/* btn */}
                 <div className="flex justify-center xl:hidden relative ">

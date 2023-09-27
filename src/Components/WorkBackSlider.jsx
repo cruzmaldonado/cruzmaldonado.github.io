@@ -13,7 +13,7 @@ const serviceData = [
     icon: <RxCookie />,
     title: 'RECIPES-API',
     description: 'Proyecto de recetas: Añade recetas, Filtralas y usa la documentación tipo swagger.',
-    link:"https://github.com/cruzmaldonado/recetario_back-end"
+    link:"https://cruz-recipes.onrender.com/api/v1/docs/"
     
   },
   {
