@@ -24,7 +24,7 @@ const Socials = () => {
   
 
        <a className=" hover:text-accent transitial-all
-         duration-300" href="../../asset/Cruz-Maldonado_CV.pdf" download="cruz-maldonado-curriculum.pdf"
+         duration-300" href="./Cruz-Maldonado_CV.pdf" download="cruz-maldonado-curriculum.pdf"
                     title="descargar CV"  alt="download-CV">
                   <BiSolidBriefcase />
         </a>
