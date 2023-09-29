@@ -71,36 +71,25 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Curso de React.js con Vite.js y TailwindCSS- Platzi. ",
-        stage: "2023",
-      },
-      {
-        title: "Curso de Prework para Desarrollo  Blockchain-Platzi ",
-        stage: "2023",
-      },
-      {
-        title: "Curso de Prompt Engineering con ChatGPT. ",
-        stage: "2023",
-      },
-      {
-        title: "Curso de Inglés Básico A2: Adverbios y Sustantivos- Platzi. ",
-        stage: "2023",
-      },
-      {
-        title: "Curso de Inglés Básico A2: Adverbios y Sustantivos- Platzi. ",
-        stage: "2023",
-      },
-      {
         title: "Back-End Development with Node.js- Academlo. ",
-        stage: "2022",
+
       },
       {
         title: "Front-End Development with React- Academlo. ",
-        stage: "2022",
+        
       },
       {
-        title: "Curso de SEO y posicionamiento en Google- Udemy. ",
-        stage: "2021",
+        title: "Curso de React.js con Vite.js y TailwindCSS.",
+        
+      },
+      
+      {
+        title: "Curso de Prompt Engineering con ChatGPT.",
+        
+      },
+      {
+        title: "Curso de SEO y posicionamiento en Google.",
+        
       }
     ],
   },
@@ -124,7 +113,7 @@ const About = () => {
             
             <div
               className="xl:mt-16  container  mx-auto h-full w-full flex flex-col items-center
-                xl:flex-row gap-x-6 "
+                xl:flex-row gap-x-6  "
                 
             >
                {/* text */}
@@ -142,7 +131,7 @@ const About = () => {
                animate="show"
                exit="hidden"
                className="max-w-[500px] mx-auto xl:mx-0 mb-2 px-2 xl:px-0">
-                I am a passionate full-stack web developer with experience in React, Tailwind, Node, and prompt engineer with IA. With a strong interest in innovation and technology, I am seeking a junior programming position where I can help solve problems and contribute to a company's growth.
+                I am a passionate full-stack web developer with experience in React, Tailwind, Node, and prompt engineer with IA. With a strong interest in innovation and technology.
                </motion.p>
                {/* counters */}
                <motion.div

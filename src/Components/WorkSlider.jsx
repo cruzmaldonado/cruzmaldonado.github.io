@@ -16,10 +16,10 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[415px] "
+      className="h-[240px] lg:h-[415px] "
     >
       <SwiperSlide>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 lg:mx-20 cursor-pointer ">
+        <div className="grid grid-cols-2 grid-rows-2 mx-5  gap-4 lg:mx-20 cursor-pointer ">
           <Link
             to="https://glistening-hamster-d523f1.netlify.app/"
             target="_blank"
@@ -33,7 +33,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup1 bg-cover w-300 h-180" />
+                <div className="bg-Mockup1 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -51,7 +51,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>
@@ -81,7 +81,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup2 bg-cover w-300 h-180" />
+                <div className="bg-Mockup2 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -99,7 +99,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex "
                       >
                         PROJECT
                       </div>
@@ -129,7 +129,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup3 bg-cover w-300 h-180" />
+                <div className="bg-Mockup3 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -147,7 +147,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>
@@ -177,7 +177,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup4 bg-cover w-300 h-180" />
+                <div className="bg-Mockup4 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -195,7 +195,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>
@@ -215,7 +215,7 @@ const WorkSlider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 lg:mx-20 cursor-pointer ">
+      <div className="grid grid-cols-2 grid-rows-2 mx-5  gap-4 lg:mx-20 cursor-pointer ">
           <Link
             to="https://ciudad-caribia.netlify.app/"
             target="_blank"
@@ -229,7 +229,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup5 bg-cover w-300 h-180" />
+                <div className="bg-Mockup5 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -247,7 +247,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>
@@ -277,7 +277,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup6 bg-cover w-300 h-180" />
+                <div className="bg-Mockup6 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -295,7 +295,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>
@@ -325,7 +325,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup7 bg-cover w-300 h-180" />
+                <div className="bg-Mockup7 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -343,7 +343,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>
@@ -373,7 +373,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup1 bg-cover w-300 h-180" />
+                <div className="bg-Mockup1 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -391,7 +391,7 @@ const WorkSlider = () => {
                       {/* tittle part 1 */}
                       <div
                         className="translate-y-[500%] group-hover:translate-y-0
-                                transition-all duration-500 delay-150"
+                                transition-all duration-500 delay-150 hidden lg:flex"
                       >
                         PROJECT
                       </div>

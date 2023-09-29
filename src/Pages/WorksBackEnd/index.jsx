@@ -51,9 +51,7 @@ const WorksBackEnd = () => {
                   className="mb-4 max-w-[400px] mx-auto lg:mx-0">
                      Create a custom back-end that meets your specific needs
                    and drives business success.  By leveraging the power 
-                   of Node.js and Sequelize. I can create a custom back-end 
-                   that meets your specific requirements. Contact me today 
-                   to get started. 
+                   of Node.js and Sequelize. 
                   </motion.p>
                 </div>
 
