@@ -21,7 +21,7 @@ const WorkSlider = () => {
       <SwiperSlide>
         <div className="grid grid-cols-2 grid-rows-2 mx-5  gap-4 lg:mx-20 cursor-pointer ">
           <Link
-            to="https://glistening-hamster-d523f1.netlify.app/"
+            to="https://react-ecommerce-tailwind.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT
+                        PROJECT 
                       </div>
                       {/* icon */}
                       <div
@@ -101,7 +101,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex "
                       >
-                        PROJECT
+                        PROJECT 2
                       </div>
                       {/* icon */}
                       <div
@@ -197,7 +197,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT
+                        PROJECT 
                       </div>
                       {/* icon */}
                       <div
@@ -217,7 +217,7 @@ const WorkSlider = () => {
       <SwiperSlide>
       <div className="grid grid-cols-2 grid-rows-2 mx-5  gap-4 lg:mx-20 cursor-pointer ">
           <Link
-            to="https://ciudad-caribia.netlify.app/"
+            to="https://statuesque-dodol-35d60c.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -249,7 +249,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT
+                        PROJECT 
                       </div>
                       {/* icon */}
                       <div
@@ -345,7 +345,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT
+                        PROJECT 
                       </div>
                       {/* icon */}
                       <div
@@ -361,7 +361,7 @@ const WorkSlider = () => {
             </div>
           </Link>
           <Link
-            to="https://glistening-hamster-d523f1.netlify.app/"
+            to="https://rococo-horse-4f7a6f.netlify.app/#/pokedex"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -373,7 +373,7 @@ const WorkSlider = () => {
                 className="flex items-center justify-center
                     relative overflow-hidden group"
               >
-                <div className="bg-Mockup1 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
+                <div className="bg-Mockup8 bg-cover w-32 h-24 lg:w-300  lg:h-180" />
                 <div
                   className="absolute inset-0 bg-gradient-to-l 
                       from-transparent via-[#e838cc] to-[#4a22bd] 
@@ -393,7 +393,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT
+                        PROJECT 
                       </div>
                       {/* icon */}
                       <div

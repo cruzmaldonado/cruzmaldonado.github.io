@@ -36,7 +36,8 @@ export default {
         Mockup4: 'url("../../images/Mockup-platzitravel-mobile-2.png")',       
         Mockup5: 'url("../../images/Mockup-platzitravel-mobile.png")',       
         Mockup6: 'url("../../images/Mockup-app-commerce.png")',       
-        Mockup7: 'url("../../images/Mockup-digital-art.png")',       
+        Mockup7: 'url("../../images/Mockup-digital-art.png")',      
+        Mockup8: 'url("../../images/Mockup-pokedex.png")',      
         
       },
       height:{
