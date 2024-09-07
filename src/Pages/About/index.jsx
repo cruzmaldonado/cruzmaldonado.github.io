@@ -131,7 +131,7 @@ const About = () => {
                animate="show"
                exit="hidden"
                className="max-w-[500px] mx-auto xl:mx-0 mb-2 px-2 xl:px-0">
-                I am a passionate full-stack web developer with experience in React, Tailwind, Node, and prompt engineer with IA. With a strong interest in innovation and technology.
+                I'm a passionate full-stack web developer with experience in React, Tailwind, Node, and prompt engineer with IA. With a strong interest in innovation and technology.
                </motion.p>
                {/* counters */}
                <motion.div
