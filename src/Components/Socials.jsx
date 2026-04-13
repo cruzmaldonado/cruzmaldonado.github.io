@@ -22,7 +22,7 @@ const Socials = () => {
          <AiFillLinkedin  />
        </Link>
   
-       <Link to="https://drive.google.com/file/d/166NAo5yrfyFjgqh9e8LuMVg8m99ZyGDf/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+       <Link to="https://canva.link/fdbo9xfrmlsjzqr" target="_blank" rel="noopener noreferrer"
          className=" hover:text-accent transitial-all
      duration-300"
        >

@@ -22,7 +22,7 @@ const Home = () => {
                   initial="hidden"
                   animate="show"
                   exit="hidden"
-                  
+
                   className="h1 mt-12"
                 >
                   Transforming Ideas
@@ -31,15 +31,17 @@ const Home = () => {
                 </motion.h1>
                 <motion.p
                   variants={fadeIn("down", 1)}
-                  
+
                   initial="hidden"
                   animate="show"
                   exit="hidden"
                   className="max-w-sm xl:max-w-xl mx-auto xl:mx-0  xl:mb-4 "
                 >
-                  As a full-stack web developer and prompt engineer with a passion for  AI, 
-                  I am committed to utilizing the latest technologies and trends to create 
-                  innovative digital solutions for my clients. 
+                  As a full‑stack web developer and marketing automation
+                  specialist, I use GoHighLevel, media buying, and AI to
+                  help businesses scale online by generating leads,
+                  improving campaigns, and streamlining sales. Let’s connect
+                  and bring your vision to life.
                 </motion.p>
                 {/* btn */}
                 <div className="flex justify-center xl:hidden relative ">
@@ -47,7 +49,7 @@ const Home = () => {
                 </div>
                 <motion.div
                   variants={fadeIn("down", 1.1)}
-                 
+
                   initial="hidden"
                   animate="show"
                   exit="hidden"
@@ -62,21 +64,21 @@ const Home = () => {
               {/* bg image */}
               <div className="bg-none xl:bg-explosion lg bg-cover xl:bg-right 
               lg-bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
-                
-                </div>
-                {/* particles */}
-                  <ParticlesContainer/>
-                {/* avatar img */}
-                <motion.div
+
+              </div>
+              {/* particles */}
+              <ParticlesContainer />
+              {/* avatar img */}
+              <motion.div
                 variants={fadeIn("up", 1.2)}
                 initial="hidden"
                 animate="show"
                 exit="hidden"
-                transition={{duration:1,ease:'easeInOut'}}
+                transition={{ duration: 1, ease: 'easeInOut' }}
                 className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-60
                  xl:-right-[35%]">
-                  <Avatar/>
-                </motion.div>
+                <Avatar />
+              </motion.div>
 
             </div>
           </div>
