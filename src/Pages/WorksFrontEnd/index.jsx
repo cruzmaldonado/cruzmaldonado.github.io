@@ -1,5 +1,5 @@
 
-import { AnimatePresence,motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Layout from "../../Components/Layout"
 import Transition from "../../Components/Transition";
 
@@ -13,13 +13,13 @@ import { fadeIn } from "../../../variants";
 const WorksFrontEnd = () => {
   return (
     <Layout>
-      < AnimatePresence mode ="wait">
+      < AnimatePresence mode="wait">
 
-    <motion.div   className='h-full'>
+        <motion.div className='h-full'>
 
-<Transition/>
+          <Transition />
 
-<div className="h-full bg-primary/30 py-36 items-center">
+          <div className="h-full bg-primary/30 py-36 items-center">
             <Circles />
             <div className="container mx-auto ">
               <div className="flex flex-col xl:flex-row gap-x-8">
@@ -37,39 +37,39 @@ const WorksFrontEnd = () => {
                   >
                     My works front-end <span className="text-accent">.</span>
                   </motion.h2>
-                  <motion.p 
-                  variants={fadeIn("up ", 0.4)}
-                  initial="hidden"
-                  animate="show"
-                  exit="hidden"
-                  className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-                  With my experience in React 
-                  and Tailwind CSS, I can help you create a custom website 
-                  that stands out from the competition and drives business 
-                  success.                   
+                  <motion.p
+                    variants={fadeIn("up ", 0.4)}
+                    initial="hidden"
+                    animate="show"
+                    exit="hidden"
+                    className="mb-4 max-w-[400px] mx-auto lg:mx-0">
+                    With my experience in React
+                    , Tailwind, automations and AI , I can help you create a custom website
+                    that stands out from the competition and drives business
+                    success.
                   </motion.p>
                 </div>
 
 
                 {/* slider */}
-                <motion.div 
-                variants={fadeIn("down", 0.6)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-                className="w-full xl:max-w-[65%]">
-                  
+                <motion.div
+                  variants={fadeIn("down", 0.6)}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                  className="w-full xl:max-w-[65%]">
+
                   <WorkSlider />
-                    
+
                 </motion.div>
               </div>
             </div>
             <Buld />
           </div>
 
-    </motion.div>
+        </motion.div>
       </AnimatePresence>
-</Layout>
+    </Layout>
   )
 }
 

@@ -28,29 +28,29 @@ export default {
         site: 'url("../../images/site-bg.svg")',
         TopLeftImg: 'url("../../images/top-left-img.png")',
         RoundedText: 'url("../../images/rounded-text.png")',
-        Cruz: 'url("../../images/cruz-inicio.png")',       
-        bulb: 'url("../../images/bulb.png")',       
-        Mockup1: 'url("../../images/Mockup-e-commerce.png")',       
-        Mockup2: 'url("../../images/Mockup-comming-soon.png")',       
-        Mockup3: 'url("../../images/Mockup-rick-and-morty.png")',       
-        Mockup4: 'url("../../images/Mockup-platzitravel-mobile-2.png")',       
-        Mockup5: 'url("../../images/Mockup-platzitravel-mobile.png")',       
-        Mockup6: 'url("../../images/Mockup-app-commerce.png")',       
-        Mockup7: 'url("../../images/Mockup-digital-art.png")',      
-        Mockup8: 'url("../../images/Mockup-pokedex.png")',      
-        
-      },
-      height:{
-        '400':'25rem',
-        '200':'12.5rem',
-        '180':'11.25rem'
-        
+        Cruz: 'url("../../images/cruz-inicio.png")',
+        bulb: 'url("../../images/bulb.png")',
+        Mockup1: 'url("../../images/Mockup-e-commerce.png")',
+        Mockup2: 'url("../../images/Mockup-lux-state.png")',
+        Mockup3: 'url("../../images/Mockup-launchify.png")',
+        Mockup4: 'url("../../images/Mockup-platzitravel-mobile-2.png")',
+        Mockup5: 'url("../../images/Mockup-platzitravel-mobile.png")',
+        Mockup6: 'url("../../images/Mockup-app-commerce.png")',
+        Mockup7: 'url("../../images/Mockup-digital-art.png")',
+        Mockup8: 'url("../../images/Mockup-pokedex.png")',
 
       },
-      width:{
-        '400':'25rem',
-        '200':'12.5rem',
-        '300':'18.75rem'
+      height: {
+        '400': '25rem',
+        '200': '12.5rem',
+        '180': '11.25rem'
+
+
+      },
+      width: {
+        '400': '25rem',
+        '200': '12.5rem',
+        '300': '18.75rem'
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
@@ -59,8 +59,8 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         sora: ['Sora', 'sans-serif'],
       },
-      
-      
+
+
     },
   },
   container: {

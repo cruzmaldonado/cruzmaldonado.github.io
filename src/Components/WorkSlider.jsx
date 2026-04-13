@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 
-import {Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -53,7 +53,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT 
+                        PROJECT
                       </div>
                       {/* icon */}
                       <div
@@ -69,7 +69,7 @@ const WorkSlider = () => {
             </div>
           </Link>
           <Link
-            to="https://grand-starburst-57dd90.netlify.app/"
+            to="https://vibe-coding-luxu-state-fck8.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -101,7 +101,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex "
                       >
-                        PROJECT 
+                        PROJECT
                       </div>
                       {/* icon */}
                       <div
@@ -117,7 +117,7 @@ const WorkSlider = () => {
             </div>
           </Link>
           <Link
-            to="https://jocular-bunny-1b96c3.netlify.app/"
+            to="https://launchify-remotos-academy.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -197,7 +197,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT 
+                        PROJECT
                       </div>
                       {/* icon */}
                       <div
@@ -215,7 +215,7 @@ const WorkSlider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className="grid grid-cols-2 grid-rows-2 mx-5  gap-4 lg:mx-20 cursor-pointer ">
+        <div className="grid grid-cols-2 grid-rows-2 mx-5  gap-4 lg:mx-20 cursor-pointer ">
           <Link
             to="https://statuesque-dodol-35d60c.netlify.app/"
             target="_blank"
@@ -249,7 +249,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT 
+                        PROJECT
                       </div>
                       {/* icon */}
                       <div
@@ -345,7 +345,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT 
+                        PROJECT
                       </div>
                       {/* icon */}
                       <div
@@ -393,7 +393,7 @@ const WorkSlider = () => {
                         className="translate-y-[500%] group-hover:translate-y-0
                                 transition-all duration-500 delay-150 hidden lg:flex"
                       >
-                        PROJECT 
+                        PROJECT
                       </div>
                       {/* icon */}
                       <div
